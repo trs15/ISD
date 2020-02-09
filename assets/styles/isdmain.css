@@ -1,0 +1,111 @@
+body
+{
+    background-image:url(https://static.boredpanda.com/blog/wp-content/uploads/2015/01/animals-getting-cozy-with-camera-gear-owl2__880.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    text-align:center;
+    color:white;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: thistle;
+}
+
+.line{
+    border:1px solid white;
+}
+#google_translate_element
+{
+    position:fixed;
+    display: block;
+    right: 10px;
+    top: 20px;
+}
+#newuser
+{
+    font-style: italic;
+    text-decoration: underline;
+    color:greenyellow;
+}
+#user
+{
+    text-align: left;
+}
+#resgiration
+{
+    position:fixed;
+    display: block;
+    left: 20px;
+    top: 20px;
+    color:green;
+}
+#header
+{
+    width:100%;
+    height:100%;
+    font-size: larger;
+}
+#main
+{
+    height:540px;
+}
+#leftmenu
+{
+    display: block;
+    position:fixed;
+    width:15%;
+    left:10px;
+    height:500px;
+    text-align:left;
+    font-size: x-large;
+    line-height: 70px;
+    list-style-type: none;
+
+}
+
+#mainmenu
+{
+    font-size: xx-large;
+    font-weight:bold; 
+}
+
+
+
+#text
+{
+    text-align:center;
+}
+#foot_table
+{
+    width:100%;
+    text-align:center;
+    word-wrap: break-word; 
+    word-break: break-all;
+    table-layout: fixed;
+}
+#foot_catg
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.detail
+{
+    width:20%;
+}
+#image
+{
+    font-size: larger;
+}
+#imageForm
+{
+    font-size: larger;
+}
+.addBorder
+{
+    border:1px solid;
+    font-size: 1.1em;
+}

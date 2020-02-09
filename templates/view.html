@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/view.css">
+    <title>ISD</title>
+</head>
+<body>
+    <div class="content_wrapper">
+         <img class="top_image" src="../icon.png">
+         <h3 class="subtitle">Welcome to the</h3>
+         <h1 class="title">Invasive Species Detector</h1>
+         <div class="input">
+            <form action="/isd/handleUpload" method="post" enctype="multipart/form-data">
+               <input class="my_button" type="file" name="photo" value="Choose an image"/><BR>
+               <input class="my_button" type="submit" value="Go!"/>
+           </form> 
+         </div> 
+         <article id="slider">
+            <input checked type='radio' name='slider' id='slide1'/>
+            <input type='radio' name='slider' id='slide2'/>
+            <input type='radio' name='slider' id='slide3'/>
+            <input type='radio' name='slider' id='slide4'/>
+            <input type='radio' name='slider' id='slide5'/>
+            <div id="slides">
+               <div id="container">
+                  <div class="inner">
+                     <article>
+                        <div class='caption'>
+                           <bar>Slithery squatters <a href="https://www.invasivespeciesinfo.gov/profile/burmese-python">read more</a></bar>
+                        </div>
+                        <img class="slider_image" src="../assets/images/python.jpg"/>
+                     </article>
+                     <article>
+                        <div class='caption'>
+                           <bar>Invasive beauty <a href="https://www.invasivespeciesinfo.gov/profile/purple-loosestrife">read more</a></bar>
+                        </div>
+                     <img class="slider_image" src="../assets/images/purple.jpg"/>
+                     </article>
+                     <article>
+                        <div class='caption'>
+                           <bar>Smelly intruders <a href="https://www.invasivespeciesinfo.gov/profile/brown-marmorated-stink-bug">read more</a></bar>
+                        </div>
+                     <img class="slider_image" src="../assets/images/stink.jpg"/>
+                     </article>
+                     <article>
+                     <img class="slider_image" src="../assets/images/python2.jpg"/>
+                     </article>
+                     <article>
+                     <img class="slider_image" src="../assets/images/loosestrife.jpg"/>
+                     </article>
+                  </div>
+               </div>
+            </div>
+            <div id="commands">
+               <label for='slide1'></label>
+               <label for='slide2'></label>
+               <label for='slide3'></label>
+               <label for='slide4'></label>
+               <label for='slide5'></label>
+            </div>
+            <div id="active">
+               <label for='slide1'></label>
+               <label for='slide2'></label>
+               <label for='slide3'></label>
+               <label for='slide4'></label>
+               <label for='slide5'></label>
+            </div>
+            </article>
+         <div class="tri-column">
+            <div class="column">
+               <h3>What is this?</h3>
+               <p>The Invasive Species Detector allows you to upload images of plants, animals, or insects that you suspect may be an invasive species. The Invasive Species Detector will give notify you if the subject is an invasive species or not!</p>
+            </div>
+            <div class="column">
+               <h3>How does it work?</h3>
+               <p>This detector uses AI image classification to process images and return objects in that image. The AI has been trained on a large number of images of each invasive species in order to accurately identify them.</p>
+            </div>
+            <div class="column">
+               <h3>Tips for uploads:</h3>
+               <ul class="left-align">
+                  <li class="myList">Ensure good lighting of the subject</li>
+                  <li class="myList">Higher resolution images produce better results</li>
+                  <li class="myList">Try to isolate the subject from surrounding objects</li>
+               </ul>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

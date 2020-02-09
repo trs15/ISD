@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/assets/found.css">
+    <title>Uh Oh!</title>
+</head>
+<body>
+    <div class="content_wrapper">
+        <img class="alert_image" src="/assets/red_exclamation.png">
+        <h1>We identified a {{species}} in this image!</h1>
+        <h4>Scientific Name: ({{sciName}})</h4>
+        <h1>Prediction Certainty: {{score}}%</h1>
+        <h2>Learn more about <a href="{{info}}" target="_blank">{{species}}</a></h2>
+        <button class="button_red">Report this finding</button>
+        <h2>Or</h2>
+        <button class="button_grey">Report a false indication</button>
+    </div>
+</body>
+</html>
